@@ -8,75 +8,81 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-   "navigation": {[
-    {
-      "group": "Introduction",
-      "pages": [
-        "welcome",
-        "how-nosocial-works",
-        "faq-overview"
-      ]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "create-account",
-        "set-up-profile",
-        "instructions-guide",
-        "understanding-matches"
-      ]
-    },
-    {
-      "group": "Candidates",
-      "pages": [
-        "candidate-matching",
-        "why-no-new-matches",
-        "editing-instructions",
-        "profile-privacy"
-      ]
-    },
-    {
-      "group": "Employers",
-      "pages": [
-        "create-posting",
-        "ai-evaluations",
-        "manage-matches",
-        "company-obfuscation"
-      ]
-    },
-    {
-      "group": "Tips & Best Practices",
-      "pages": [
-        "improve-match-quality",
-        "market-insights",
-        "common-pitfalls"
-      ]
-    },
-    {
-      "group": "Troubleshooting",
-      "pages": [
-        "login-issues",
-        "email-notifications",
-        "no-matches",
-        "contact-support"
-      ]
-    },
-    {
-      "group": "Company & Policies",
-      "pages": [
-        "privacy-policy",
-        "terms-of-service",
-        "gdpr"
-      ]
-    },
-    {
-      "group": "Changelog",
-      "pages": [
-        "product-updates",
-        "release-notes"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
       ]
     }
-  ]}
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
