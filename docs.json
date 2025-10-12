@@ -16,53 +16,53 @@
           {
             "group": "Introduction",
             "pages": [
-              "welcome",
-              "how-nosocial-works",
-              "faq-overview"
+              "introduction/welcome",
+              "introduction/how-nosocial-works",
+              "introduction/faq-overview"
             ]
           },
           {
             "group": "Getting Started",
             "pages": [
-              "create-account",
-              "set-up-profile",
-              "instructions-guide",
-              "understanding-matches"
+              "getting-started/create-account",
+              "getting-started/set-up-profile",
+              "getting-started/instructions-guide",
+              "getting-started/understanding-matches"
             ]
           },
           {
             "group": "For Candidates",
             "pages": [
-              "candidate-matching",
-              "why-no-new-matches",
-              "editing-instructions",
-              "profile-privacy"
+              "for-candidates/candidate-matching",
+              "for-candidates/why-no-new-matches",
+              "for-candidates/editing-instructions",
+              "for-candidates/profile-privacy"
             ]
           },
           {
             "group": "For Employers",
             "pages": [
-              "create-posting",
-              "ai-evaluations",
-              "manage-matches",
-              "company-obfuscation"
+              "for-employers/create-posting",
+              "for-employers/ai-evaluations",
+              "for-employers/manage-matches",
+              "for-employers/company-obfuscation"
             ]
           },
           {
             "group": "Tips & Best Practices",
             "pages": [
-              "improve-match-quality",
-              "market-insights",
-              "common-pitfalls"
+              "tips-best-practices/improve-match-quality",
+              "tips-best-practices/market-insights",
+              "tips-best-practices/common-pitfalls"
             ]
           },
           {
             "group": "Troubleshooting",
             "pages": [
-              "login-issues",
-              "email-notifications",
-              "no-matches",
-              "contact-support"
+              "troubleshooting/login-issues",
+              "troubleshooting/email-notifications",
+              "troubleshooting/no-matches",
+              "troubleshooting/contact-support"
             ]
           }
         ]
@@ -70,22 +70,14 @@
       {
         "tab": "Company",
         "groups": [
-          {
-            "group": "Policies",
-            "pages": [
-              "privacy-policy",
-              "terms-of-service",
-              "gdpr"
-            ]
-          },
-          {
-            "group": "Changelog",
-            "pages": [
-              "product-updates",
-              "release-notes"
-            ]
-          }
-        ]
+        {
+          "group": "Policies",
+          "pages": [
+            "policies/privacy-policy",
+            "policies/terms-of-service",
+            "policies/gdpr"
+          ]
+        }        ]
       }
     ],
     "global": {
