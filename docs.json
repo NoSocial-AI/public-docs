@@ -14,15 +14,12 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "How It Works",
             "pages": [
-              "introduction/welcome",
-              "introduction/how-nosocial-works",
-              "introduction/context-intent",
-              "introduction/feedback-driven",
-              "introduction/continous-matching",
-              "introduction/understanding-matches",
-              "introduction/faq-overview"
+              "how-it-works/index",
+              "how-it-works/core-concepts",
+              "how-it-works/candidates",
+              "how-it-works/employers"
             ]
           },
           {
@@ -34,23 +31,6 @@
             ]
           },
           {
-            "group": "For Candidates",
-            "pages": [
-              "for-candidates/candidate-matching",
-              "for-candidates/why-no-new-matches",
-              "for-candidates/editing-instructions",
-              "for-candidates/profile-privacy"
-            ]
-          },
-          {
-            "group": "For Employers",
-            "pages": [
-              "for-employers/create-posting",
-              "for-employers/ai-evaluations",
-              "for-employers/manage-matches"
-            ]
-          },
-          {
             "group": "Tips & Best Practices",
             "pages": [
               "tips-best-practices/improve-match-quality",
@@ -59,12 +39,9 @@
             ]
           },
           {
-            "group": "Troubleshooting",
+            "group": "Support",
             "pages": [
-              "troubleshooting/login-issues",
-              "troubleshooting/email-notifications",
-              "troubleshooting/no-matches",
-              "troubleshooting/contact-support"
+              "faq"
             ]
           }
         ]
