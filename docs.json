@@ -44,8 +44,7 @@
             "pages": [
               "for-employers/create-posting",
               "for-employers/ai-evaluations",
-              "for-employers/manage-matches",
-              "for-employers/company-obfuscation"
+              "for-employers/manage-matches"
             ]
           },
           {
@@ -70,14 +69,15 @@
       {
         "tab": "Company",
         "groups": [
-        {
-          "group": "Policies",
-          "pages": [
-            "policies/privacy-policy",
-            "policies/terms-of-service",
-            "policies/gdpr"
-          ]
-        }        ]
+          {
+            "group": "Policies",
+            "pages": [
+              "policies/privacy-policy",
+              "policies/terms-of-service",
+              "policies/gdpr"
+            ]
+          }
+        ]
       }
     ],
     "global": {

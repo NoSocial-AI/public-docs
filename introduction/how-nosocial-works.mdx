@@ -1,27 +1,27 @@
 ---
 title: "How NoSocial Works"
-description: "Understanding NoSocial AI's continuous matching system. "
+description: "Understanding NoSocial AI's continuous matching system."
 ---
 
 ## Overview
 
-NoSocial is a complete re-design of how matching systems work. Unlike a point-in-time evaluation of a CV and Job Description. Our AI enabled system is continously matching based on feedback on interactions between candidates and employers making static CV's and Job Descriptions obsolete. 
+NoSocial is a complete re-design of how matching systems work. Unlike a point-in-time evaluation of a CV and Job Description, our AI-enabled system is continuously matching based on feedback from interactions between candidates and employers, making static CVs and Job Descriptions largely obsolete.
 
-Matches are brokered by the AI system that mediates the connection while respecting data privacy and data sharing. The result of this approach is both sides of the market (supply and demand) will have the best possible match outcomes available to them. 
+Matches are brokered by the AI system that mediates the connection while respecting data privacy and data sharing. The result of this approach is that both sides of the market (supply and demand) have the best possible match outcomes available to them.
 
 ## Key Principles
 
 <CardGroup cols={2}>
   <Card title="Continous Matching" icon="arrow-right-arrow-left" iconType="regular" color="#82e985" href="continous-matching.mdx">
-    Every candidate and job is evaluated continously  as feedback is incorporated by users into their AI instructions.
+    Every candidate and job is evaluated continuously as feedback is incorporated by users into their AI instructions.
   </Card>
   <Card title="Two-Sided Evaluation" icon="scale-balanced">
-    Every match is scored from both the candidate's and employer's perspective for fair representation and noise reduction. 
+    Every match is scored from both the candidate's and employer's perspective for fair representation and noise reduction.
   </Card>
-  <Card title="AI-Powered Learning" icon="brain">
-    The system continuously learns from your feedback to deliver better matches over time.
+  <Card title="Context & Intent" icon="brain">
+    Instead of CVs and JDs, the system uses your intent and context to determine match fit.
   </Card>
-  <Card title="No PII Sharing" icon="user-secret">
+  <Card title="Feedback Driven" icon="user-secret">
     Personal information is never shared without mutual consent and agreement.
   </Card>
 </CardGroup>
@@ -60,7 +60,7 @@ Matches are brokered by the AI system that mediates the connection while respect
     - **Employer POV:** How well does this candidate fit the role?
   </Step>
   <Step title="Feedback Refines Understanding">
-    Both candidates and employers review their matches and provide feedback. The AI learns from this feedback
+    Both candidates and employers review their matches and provide feedback. The AI learns from this feedback.
   </Step>
   <Step title="Continuous Improvement">
     As both candidates and employers interact with the platform, their understanding of what they want evolves. The AI adapts to these changes, resulting in progressively better matches over time.
@@ -69,139 +69,6 @@ Matches are brokered by the AI system that mediates the connection while respect
     Throughout the entire process, no private or personally identifiable information (PII) is shared between candidates and employers until both parties mutually agree to connect.
   </Step>
 </Steps>
-
-## The Matching Timeline
-
-```mermaid
-timeline
-    title Match Quality Evolution
-    Initial Setup : Basic profile & instructions
-                  : First matches generated
-    Week 1-2 : Provide feedback on matches
-             : AI learns preferences
-    Week 3-4 : Match quality improves
-             : More relevant opportunities
-    Ongoing : Continuous refinement
-            : Evolving understanding
-            : Higher quality matches
-```
-
-## How Feedback Improves Matches
-
-<AccordionGroup>
-  <Accordion title="What happens when you rate a match?">
-    When you feedback on a match (positive or negative), the AI analyzes:
-
-    - What aspects you liked or disliked
-    - Patterns across your feedback
-    - How to adjust future recommendations
-    - What insights to share with you about your preferences
-  </Accordion>
-  <Accordion title="How does the AI learn from feedback?">
-    The AI uses your feedback to:
-
-    - Refine understanding of your stated preferences
-    - Discover unstated preferences through patterns
-    - Identify deal-breakers you may not have explicitly mentioned
-  </Accordion>
-  <Accordion title="What feedback does the AI provide to users?">
-    Based on your interactions, the AI may provide insights like:
-
-    - "You tend to prefer smaller companies over large corporations"
-    - "Remote work appears to be more important than you indicated"
-    - "You might want to expand your search to include [X] industry"
-  </Accordion>
-</AccordionGroup>
-
-## The Two-Sided Match Explained
-
-```mermaid
-graph LR
-    A[Job Posting] --> C[AI Analysis]
-    B[Candidate Profile] --> C
-    C --> D[Candidate Match Score]
-    C --> E[Employer Match Score]
-    
-    D --> F{85% Match}
-    E --> G{92% Match}
-    
-    F --> H[Candidate Sees: <br/>85% fit for you]
-    G --> I[Employer Sees: <br/>92% fit for role]
-    
-    style F fill:#10B981
-    style G fill:#10B981
-    style C fill:#1E3A8A
-```
-
-**Why Two Scores?**
-
-- A candidate might be great for a job (employer's 92% match)
-- But the job might not be perfect for the candidate (candidate's 85% match)
-- Both perspectives matter for a successful hire
-
-## What Makes NoSocial Different?
-
-<CardGroup cols={3}>
-  <Card title="No Social Media Required" icon="ban">
-    No public profiles or networking pressure
-  </Card>
-  <Card title="AI Agents for Both Sides" icon="robot">
-    Each party has their own AI advocate
-  </Card>
-  <Card title="Private by Default" icon="lock">
-    Your secrets stay secret until you choose to share
-  </Card>
-  <Card title="Feedback-Driven" icon="comments">
-    The system gets smarter with every interaction
-  </Card>
-  <Card title="Two-Sided Scoring" icon="arrow-right-arrow-left">
-    Fair evaluation from both perspectives
-  </Card>
-  <Card title="Evolving Matches" icon="chart-line">
-    Quality improves as you both learn what you want
-  </Card>
-</CardGroup>
-
-## Privacy Protection
-
-<Warning>
-  NoSocial takes privacy seriously. Here's what's NEVER shared without your explicit consent:
-</Warning>
-
-<Tabs>
-  <Tab title="Candidate Privacy">
-    **Protected Information:**
-
-    - Current employer (if specified as private)
-    - Salary expectations and requirements
-    - Deal-breakers and red flags
-    - Personal preferences and constraints
-    - Contact information
-    - Location (if set to private)
-
-    **Shared Only After Mutual Interest:**
-
-    - Full name
-    - Direct contact details
-    - Complete work history
-  </Tab>
-  <Tab title="Employer Privacy">
-    **Protected Information:**
-
-    - Budget and salary range details
-    - Internal hiring requirements
-    - Team composition concerns
-    - Strategic hiring plans
-    - Company challenges
-    - Competitive information
-
-    **Shared Only After Mutual Interest:**
-
-    - Company name (if obfuscated)
-    - Hiring manager details
-    - Team structure
-  </Tab>
-</Tabs>
 
 ## Next Steps
 
