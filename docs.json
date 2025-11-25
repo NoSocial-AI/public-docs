@@ -18,6 +18,11 @@
             "pages": [
               "introduction/welcome",
               "introduction/how-nosocial-works",
+              "introduction/context-intent",
+              "introduction/two-sided-evaluation",
+              "introduction/feedback-driven",
+              "introduction/continous-matching",
+              "introduction/understanding-matches",
               "introduction/faq-overview"
             ]
           },
@@ -26,8 +31,7 @@
             "pages": [
               "getting-started/create-account",
               "getting-started/set-up-profile",
-              "getting-started/instructions-guide",
-              "getting-started/understanding-matches"
+              "getting-started/instructions-guide"
             ]
           },
           {
