@@ -26,14 +26,12 @@
             "group": "Getting Started",
             "pages": [
               "getting-started/create-account",
-              "getting-started/set-up-profile",
-              "getting-started/instructions-guide"
+              "getting-started/set-up-profile"
             ]
           },
           {
             "group": "Tips & Best Practices",
             "pages": [
-              "tips-best-practices/improve-match-quality",
               "tips-best-practices/market-insights",
               "tips-best-practices/common-pitfalls"
             ]
