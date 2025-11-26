@@ -57,11 +57,6 @@
           "anchor": "Website",
           "href": "https://nosocial.ai",
           "icon": "globe"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.nosocial.ai/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -74,13 +69,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@nosocial.ai"
+        "href": "mailto:beta@nosocial.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Go to App",
-      "href": "https://nosocial.ai"
+      "href": "https://www.nosocial.ai"
     }
   },
   "contextual": {
@@ -90,11 +85,6 @@
       "chatgpt",
       "perplexity"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/nosocial",
-      "linkedin": "https://linkedin.com/company/nosocial"
-    }
   }
+  
 }
