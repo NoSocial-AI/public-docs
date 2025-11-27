@@ -19,20 +19,16 @@
               "how-it-works/index",
               "how-it-works/core-concepts",
               "how-it-works/candidates",
-              "how-it-works/employers"
+              "how-it-works/employers",
+              "how-it-works/market-insights"
             ]
           },
-          {
-            "group": "Tips & Best Practices",
-            "pages": [
-              "tips-best-practices/market-insights",
-              "tips-best-practices/common-pitfalls"
-            ]
-          },
+          
           {
             "group": "Support",
             "pages": [
-              "faq"
+              "faq",
+              "tips-best-practices/common-pitfalls"
             ]
           }
         ]
