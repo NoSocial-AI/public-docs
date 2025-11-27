@@ -2,6 +2,17 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "NoSocial Help Center",
+  "appearance": {
+    "default": "light"
+  },
+  "fonts": {
+    "body": {
+      "family": "Roboto Mono"
+    },
+    "heading": {
+      "family": "Roboto Mono"
+    }
+  },
   "colors": {
     "primary": "#1E3A8A",
     "light": "#3B82F6",
